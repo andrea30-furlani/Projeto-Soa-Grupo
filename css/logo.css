@@ -1,0 +1,34 @@
+
+    .site-heading {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        padding: 0 20px;
+        height: 100px; /* Mantém a altura do cabeçalho fixa */
+    }
+
+    .logo {
+        position: absolute;
+        left: 20px; /* Alinha o logo à esquerda */
+        height: 300px; /* Aumenta o tamanho do logo sem afetar o header */
+    }
+
+    .heading-text {
+        text-align: center;
+        flex-grow: 1;
+        margin-left: 180px; /* Adiciona espaço para o logo */
+    }
+
+    .site-heading-upper, .site-heading-lower {
+        display: block;
+    }
+
+
+    
+
+
+
+
+
+    
